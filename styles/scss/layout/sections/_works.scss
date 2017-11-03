@@ -1,0 +1,30 @@
+.header-works{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 70px;
+  h2{
+    font-size: 22px;
+    font-family: $font-fair;
+    font-weight: bold;
+  }
+  a{
+    text-decoration: none;
+    color: #413d4b;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+.gallery{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  img{
+    width:16.6%;
+  }
+}
+.button{
+  display: flex;
+  justify-content: center;
+  padding-top: 65px;
+}

@@ -1,0 +1,64 @@
+.amazing{
+  background-image: url("../../images/amazing.png");
+  height: auto;
+  background-size: cover;
+}
+.header-amazing{
+  h2{
+    color: $color;
+  }
+  p{
+    color: $color;
+  }
+  hr{
+    background: #655c80;
+  }
+}
+.wrapper-photo{
+  display: flex;
+  justify-content: space-between;
+}
+.figure{
+  width: 220px;
+  height:auto;
+  img{
+    display: block;
+  }
+  figcaption{
+    border: 1px solid #757489;
+    padding: 20px 0 25px 0;
+    h3{
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif;
+      color: $color;
+      font-weight: bold;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    p{
+      color: #fafafa;
+      font-size: 13px;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+    }
+  }
+}
+.amazing-info{
+  span{
+    display:flex;
+    justify-content: center;
+    color: #f3f3f3;
+    font-size: 14px;
+    font-family: $font-fair ;
+    margin-top: 72px;
+    margin-bottom: 30px;
+
+  }
+  button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 140px;
+  }
+}

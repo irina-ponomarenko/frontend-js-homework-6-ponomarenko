@@ -1,0 +1,57 @@
+.header-containe{
+  padding-bottom: 45px;
+  h2{
+    font-size: 22px;
+    font-family: $font-fair;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  p{
+    font-size: 14px;
+    font-family: $font-fair;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  hr{
+    width: 50px;
+    height: 2px;
+    border: none;
+    background-color: #c6c4c9;
+  }
+}
+.expertise-list{
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+.web-info{
+  margin-right: 0;
+  width: 300px;
+  text-align: center;
+  padding: 40px 0 40px 0;
+  h3{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 25px 0 25px 0;
+  }
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+  }
+}
+.border-bottom{
+  border-right: 1px solid #ebebeb;;
+  border-bottom: 1px solid #ebebeb;
+}
+.border-right{
+  border-right: 1px solid #ebebeb;
+}
+.border-top{
+  border-top: 1px solid #ebebeb;
+}

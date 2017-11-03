@@ -1,0 +1,40 @@
+.wrapper{
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.story{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.container{
+  width: $width-block;
+  margin: 0 auto;
+  .image-story{
+    width: 43%;
+  }
+  .text-story{
+    width: 57%;
+    h2{
+      font-family: $font-fair;
+      font-size: 22px;
+      text-align: left;
+      font-weight: bolder;
+    }
+    p{
+      padding-top: 33px;
+    }
+  }
+  button{
+    width: 120px;
+    height: 40px;
+    background: none;
+    border:1px solid #03d4c8;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Hammersmith One', sans-serif;
+    color: #00e0d0;
+  }
+}

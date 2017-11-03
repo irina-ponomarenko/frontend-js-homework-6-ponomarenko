@@ -1,0 +1,46 @@
+.form{
+  width: 460px;
+  h2{
+    font-size: 22px;
+    font-family: $font-fair;
+    font-weight: bold;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    input{
+      padding: 20px 0 20px 20px;
+      margin-bottom: 24px;
+     }
+    textarea{
+      padding: 20px 0 0 20px;
+      margin-bottom: 20px;
+      min-height: 140px;
+    }
+  }
+}
+.clients-block{
+  h2{
+    font-size: 22px;
+    font-family: $font-fair;
+    font-weight: bold;
+  }
+}
+.clients{
+  display: flex;
+  justify-content: space-between;
+}
+.photo{
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  .photo-client{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    img{
+      padding-top: 45px;
+    }
+  }
+}

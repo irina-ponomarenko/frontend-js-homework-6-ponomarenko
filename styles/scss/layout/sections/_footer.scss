@@ -1,0 +1,56 @@
+.footer {
+  background-image: url("../../images/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $color;
+}
+.top-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+  }
+  h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 42px;
+  }
+}
+.tajam-info{
+  width: 32%;
+  img{
+    padding-bottom: 28px;
+  }
+}
+.studio{
+  width: 32%;
+}
+.touch{
+  width: 32%;
+  form {
+    display: flex;
+    flex-direction: row;
+
+    input {
+      padding: 14px 0 14px 14px;
+      width: 211px;
+      background: none;
+      border: 2px solid white;
+      margin-right: 10px;
+    }
+    button {
+      width: 70px;
+      height: 46px;
+      background-color: #a199b4;
+      background-image: url("../../images/footer-strilka.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 0.5;
+      border: none;
+    }
+  }
+}

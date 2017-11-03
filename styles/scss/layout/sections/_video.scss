@@ -1,0 +1,17 @@
+.video{
+  height: 100vh;
+  background-image: url("../../images/video-section.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: $color;
+    text-align: center;
+    padding-top: 35px;
+  }
+}
