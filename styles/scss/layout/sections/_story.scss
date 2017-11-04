@@ -24,17 +24,18 @@
       font-weight: bolder;
     }
     p{
+      @include font-p;
+      color: black;
+      line-height: 22px;
       padding-top: 33px;
     }
   }
   button{
     width: 120px;
     height: 40px;
-    background: none;
-    border:1px solid #03d4c8;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-family: 'Hammersmith One', sans-serif;
-    color: #00e0d0;
+    @include button-style;
+    &:hover{
+      @include hover-button;
+    }
   }
 }

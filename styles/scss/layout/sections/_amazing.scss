@@ -9,8 +9,10 @@
   }
   p{
     color: $color;
+    padding-bottom: 0;
   }
   hr{
+    @include hr-line;
     background: #655c80;
   }
 }

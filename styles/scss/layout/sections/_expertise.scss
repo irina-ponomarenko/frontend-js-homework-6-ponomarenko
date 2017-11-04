@@ -14,9 +14,8 @@
     padding-bottom: 20px;
   }
   hr{
-    width: 50px;
-    height: 2px;
-    border: none;
+    @include hr-line;
+    margin-top:0;
     background-color: #c6c4c9;
   }
 }
@@ -39,8 +38,7 @@
     padding: 25px 0 25px 0;
   }
   p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    @include  font-p;
     line-height: 22px;
     color: #333333;
   }

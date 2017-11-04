@@ -117,11 +117,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 25px;
 }
 .welcome-section p {
+  font-size: 14px;
   color: white;
+  font-family: 'Roboto', sans-serif;
   width: 780px;
   text-align: center;
   margin: 0 auto;
-  font-size: 14px;
   line-height: 24px;
 }
 .welcome-section button {
@@ -136,6 +137,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
   margin: 0 auto;
   margin-top: 50px;
+}
+.welcome-section button:hover {
+  color: white;
+  background-color: #00e0d0;
+  cursor: pointer;
 }
 
 .wrapper {
@@ -168,9 +174,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: bolder;
 }
 .container .text-story p {
+  font-size: 14px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  line-height: 22px;
   padding-top: 33px;
 }
 .container button {
+  width: 120px;
+  height: 40px;
   width: 120px;
   height: 40px;
   background: none;
@@ -179,6 +192,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 16px;
   font-family: 'Hammersmith One', sans-serif;
   color: #00e0d0;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.container button:hover {
+  color: white;
+  background-color: #00e0d0;
+  cursor: pointer;
 }
 
 .video {
@@ -216,9 +237,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-bottom: 20px;
 }
 .header-containe hr {
-  width: 50px;
-  height: 2px;
   border: none;
+  width: 54px;
+  height: 2px;
+  background-color: #00e0d0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-top: 0;
   background-color: #c6c4c9;
 }
 
@@ -241,8 +266,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 25px 0 25px 0;
 }
 .web-info p {
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
   line-height: 22px;
   color: #333333;
 }
@@ -271,8 +297,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 .header-amazing p {
   color: white;
+  padding-bottom: 0;
 }
 .header-amazing hr {
+  border: none;
+  width: 54px;
+  height: 2px;
+  background-color: #00e0d0;
+  margin-top: 25px;
+  margin-bottom: 25px;
   background: #655c80;
 }
 
@@ -419,11 +452,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .form form input {
   padding: 20px 0 20px 20px;
   margin-bottom: 24px;
+  outline: none;
 }
 .form form textarea {
   padding: 20px 0 0 20px;
   margin-bottom: 20px;
   min-height: 140px;
+  outline: none;
+}
+.form form button {
+  display: block;
+  margin: 0;
 }
 
 .clients-block h2 {
@@ -461,10 +500,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .top-footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 .top-footer p {
   font-size: 14px;
+  color: white;
   font-family: 'Roboto', sans-serif;
   line-height: 26px;
 }
@@ -472,18 +512,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   font-weight: bold;
-  padding-bottom: 42px;
+  line-height: 50px;
+  padding-bottom: 32px;
 }
 
 .tajam-info {
   width: 32%;
 }
 .tajam-info img {
-  padding-bottom: 28px;
+  padding-bottom: 32px;
 }
 
 .studio {
-  width: 32%;
+  width: 30%;
+}
+.studio p {
+  padding-bottom: 20px;
+}
+.studio .adress {
+  padding-left: 30px;
+  background-image: url("../../images/adress.png");
+  background-repeat: no-repeat;
+}
+.studio .phone {
+  padding-left: 30px;
+  background-image: url("../../images/fone.png");
+  background-repeat: no-repeat;
 }
 
 .touch {
@@ -499,8 +553,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: none;
   border: 2px solid white;
   margin-right: 10px;
+  outline: none;
 }
 .touch form button {
+  display: block;
+  margin: 0;
   width: 70px;
   height: 46px;
   background-color: #a199b4;
@@ -509,4 +566,63 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-position: center;
   opacity: 0.5;
   border: none;
+}
+
+.social-list {
+  display: flex;
+}
+.social-list .social {
+  width: 36px;
+  height: 36px;
+  border: 1px solid white;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 8px;
+  margin-top: 27px;
+}
+.social-list .facebook {
+  background-image: url("../../images/fasebook.png");
+}
+.social-list .twitter {
+  background-image: url("../../images/tweeter.png");
+}
+.social-list .dribble {
+  background-image: url("../../images/dribbble.png");
+}
+.social-list .instagram {
+  background-image: url("../../images/instagram.png");
+}
+.social-list .glpl {
+  background-image: url("../../images/gpl.png");
+}
+.social-list .youtube-play {
+  background-image: url("../../images/youtube.png");
+}
+
+.social:hover {
+  cursor: pointer;
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.bottom-footer ul {
+  display: flex;
+  flex-direction: row;
+}
+.bottom-footer ul li {
+  margin-right: 36px;
+}
+.bottom-footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+.bottom-footer p {
+  font-size: 14px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }

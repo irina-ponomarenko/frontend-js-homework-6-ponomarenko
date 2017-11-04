@@ -12,11 +12,17 @@
     input{
       padding: 20px 0 20px 20px;
       margin-bottom: 24px;
+      outline: none;
      }
     textarea{
       padding: 20px 0 0 20px;
       margin-bottom: 20px;
       min-height: 140px;
+      outline: none;
+    }
+    button{
+      display: block;
+      margin: 0;
     }
   }
 }
