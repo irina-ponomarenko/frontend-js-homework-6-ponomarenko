@@ -138,6 +138,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-image: url("../../images/fone.png");
   background-repeat: no-repeat;
 }
+.studio .phone a {
+  color: white;
+  text-decoration: none;
+}
 
 .touch {
   width: 32%;
