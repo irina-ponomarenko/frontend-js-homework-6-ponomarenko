@@ -20,13 +20,13 @@
   display: flex;
   justify-content: space-between;
 }
-.figure{
+.photo-client{
   width: 220px;
   height:auto;
   img{
     display: block;
   }
-  figcaption{
+  .photo-info{
     border: 1px solid #757489;
     padding: 20px 0 25px 0;
     h3{

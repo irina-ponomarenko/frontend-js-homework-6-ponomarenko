@@ -13,6 +13,8 @@
   width: $width-block;
   margin: 0 auto;
   .image-story{
+    display: flex;
+    justify-content: center;
     width: 43%;
   }
   .text-story{
@@ -27,7 +29,7 @@
       @include font-p;
       color: black;
       line-height: 22px;
-      padding-top: 33px;
+      margin-top: 33px;
     }
   }
   button{

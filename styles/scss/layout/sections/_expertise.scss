@@ -1,17 +1,17 @@
-.header-containe{
-  padding-bottom: 45px;
+.header-container{
+  margin-bottom: 45px;
   h2{
     font-size: 22px;
     font-family: $font-fair;
     text-align: center;
     font-weight: bold;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
   p{
     font-size: 14px;
     font-family: $font-fair;
     text-align: center;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
   hr{
     @include hr-line;
@@ -31,11 +31,28 @@
   width: 300px;
   text-align: center;
   padding: 40px 0 40px 0;
+  &:nth-child(n-1){
+    border-right: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+  }
+  &:nth-child(3){
+    border-right: none;
+    border-top: none;
+  }
+  &:nth-child(1){
+    border-top: none;
+  }
+  &:nth-child(2){
+    border-top: none;
+  }
+  &:nth-child(6){
+    border-right: none;
+  }
   h3{
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    padding: 25px 0 25px 0;
+    margin: 0 0 25px 0;
   }
   p{
     @include  font-p;
@@ -43,13 +60,51 @@
     color: #333333;
   }
 }
-.border-bottom{
-  border-right: 1px solid #ebebeb;;
-  border-bottom: 1px solid #ebebeb;
+.development{
+  h3{
+    &:before{
+      @include style-before;
+      background-image: url("../../images/photo-1.png");
+    }
+  }
 }
-.border-right{
-  border-right: 1px solid #ebebeb;
+.branding{
+  h3{
+    &:before {
+      @include style-before;
+      background-image: url("../../images/photo-2.png");
+    }
+  }
 }
-.border-top{
-  border-top: 1px solid #ebebeb;
+.mobile{
+  h3{
+    &:before{
+      @include style-before;
+      background-image: url("../../images/photo-3.png");
+    }
+  }
+}
+.optimization{
+  h3{
+    &:before{
+      @include style-before;
+      background-image: url("../../images/photo-4.png");
+    }
+  }
+}
+.development{
+  h3{
+    &:before{
+      @include style-before;
+      background-image: url("../../images/photo-5.png");
+    }
+  }
+}
+.made{
+  h3{
+    &:before{
+      @include style-before;
+      background-image: url("../../images/photo-6.png");
+    }
+  }
 }

@@ -10,13 +10,18 @@
     flex-direction: column;
     margin-top: 35px;
     input{
-      padding: 20px 0 20px 20px;
+      padding-left: 20px;
+      line-height: 40px;
+      font-size: 16px;
       margin-bottom: 24px;
       outline: none;
      }
     textarea{
-      padding: 20px 0 0 20px;
+      padding-left: 20px;
+      line-height: 40px;
+      font-size: 16px;
       margin-bottom: 20px;
+
       min-height: 140px;
       outline: none;
     }
