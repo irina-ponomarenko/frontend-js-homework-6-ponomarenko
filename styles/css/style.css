@@ -599,13 +599,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 .gallery {
   width: 100%;
-  height: auto;
+}
+.gallery ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.gallery img {
-  width: 16.6%;
+.gallery ul li {
+  width: calc(100%/6);
+}
+.gallery ul img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
 
 .button {
