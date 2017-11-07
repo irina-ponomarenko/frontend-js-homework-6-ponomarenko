@@ -31,21 +31,14 @@
   width: 300px;
   text-align: center;
   padding: 40px 0 40px 0;
-  &:nth-child(n-1){
+  &:nth-child(n){
     border-right: 1px solid lightgray;
-    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
   }
-  &:nth-child(3){
-    border-right: none;
-    border-top: none;
+  &:nth-last-child(-n+3){
+    border-bottom: none;
   }
-  &:nth-child(1){
-    border-top: none;
-  }
-  &:nth-child(2){
-    border-top: none;
-  }
-  &:nth-child(6){
+  &:nth-child(3n){
     border-right: none;
   }
   h3{

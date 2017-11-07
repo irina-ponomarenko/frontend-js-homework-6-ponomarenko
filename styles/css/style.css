@@ -420,21 +420,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
   padding: 40px 0 40px 0;
 }
-.web-info:nth-child(n-1) {
+.web-info:nth-child(n) {
   border-right: 1px solid lightgray;
-  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
-.web-info:nth-child(3) {
-  border-right: none;
-  border-top: none;
+.web-info:nth-last-child(-n+3) {
+  border-bottom: none;
 }
-.web-info:nth-child(1) {
-  border-top: none;
-}
-.web-info:nth-child(2) {
-  border-top: none;
-}
-.web-info:nth-child(6) {
+.web-info:nth-child(3n) {
   border-right: none;
 }
 .web-info h3 {
